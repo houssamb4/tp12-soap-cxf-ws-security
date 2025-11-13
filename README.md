@@ -1,2 +1,50 @@
-# tp12-soap-cxf-ws-security
-TP 12 - Service SOAP avec Apache CXF (JAX-WS, JAXB, WSDL, WS-Security)
+# 🔧 SOAP CXF Service - TP 12
+
+**Service web SOAP avec Apache CXF (JAX-WS, JAXB, WSDL, WS-Security)**
+
+[![Java](https://img.shields.io/badge/Java-17+-blue.svg)](https://java.com)
+[![Maven](https://img.shields.io/badge/Maven-3.6+-orange.svg)](https://maven.apache.org)
+[![CXF](https://img.shields.io/badge/Apache%20CXF-4.0.3-green.svg)](https://cxf.apache.org)
+[![License](https://img.shields.io/badge/License-Educational-lightgrey.svg)](LICENSE)
+
+## 🎯 Aperçu
+
+Ce projet est une implémentation complète d'un service web SOAP utilisant **Apache CXF** dans le cadre du TP 12 du cours *Architecture Microservices*. Il démontre les concepts fondamentaux des services web SOAP avec une approche **code-first** et inclut la sécurisation via **WS-Security**.
+
+### ✨ Fonctionnalités
+
+- ✅ Service SOAP JAX-WS avec Apache CXF
+- ✅ Sérialisation XML avec JAXB
+- ✅ Génération automatique de WSDL
+- ✅ Client Java généré via `wsdl2java`
+- ✅ Sécurité WS-Security avec UsernameToken
+- ✅ Tests avec SoapUI et client Java
+- ✅ Serveur HTTP embarqué Jetty
+
+## 🏗️ Architecture
+
+### 📁 Structure du Projet
+
+```bash
+soap-cxf-service/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/acme/cxf/
+│   │   │       ├── Server.java                 # Serveur non sécurisé
+│   │   │       ├── SecureServer.java           # Serveur avec WS-Security
+│   │   │       ├── api/
+│   │   │       │   └── HelloService.java       # Interface du service
+│   │   │       ├── impl/
+│   │   │       │   └── HelloServiceImpl.java   # Implémentation
+│   │   │       ├── model/
+│   │   │       │   └── Person.java             # Modèle JAXB
+│   │   │       ├── client/
+│   │   │       │   └── ClientDemo.java         # Client de test
+│   │   │       └── security/
+│   │   │           └── UTPasswordCallback.java # Handler d'auth
+│   │   └── resources/
+│   └── test/
+│       └── java/
+├── pom.xml                                    # Configuration Maven
+└── README.md
