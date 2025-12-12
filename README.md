@@ -2,10 +2,10 @@
 
 ## Tester le service avec SoapUI
 
-<img width="1386" height="861" alt="Capture d’écran 2025-11-08 à 09 57 22" src="https://github.com/user-attachments/assets/9d425f67-c0cf-4cee-b07f-fff3e7687436" />
-<img width="1386" height="861" alt="Capture d’écran 2025-11-08 à 09 57 10" src="https://github.com/user-attachments/assets/ffd645ee-ec64-4075-8d60-8e356db4b29c" />
+<img width="1386" height="861" alt="Capture d’écran 2025-11-08 à 09 57 22" src="https://github.com/user-attachments/assets/ade4e022-7c0b-4217-8eed-dd93d4691937" />
+<img width="1386" height="861" alt="Capture d’écran 2025-11-08 à 09 57 10" src="https://github.com/user-attachments/assets/943731fc-2c4f-487b-a95a-69c415301c77" />
 
 ## Ajouter WS-Security 
 
-<img width="2940" height="1708" alt="image" src="https://github.com/user-attachments/assets/61e0602d-1dda-41f8-8649-4d88c050c130" />
-<img width="2940" height="1708" alt="image" src="https://github.com/user-attachments/assets/8766740d-70a5-460b-8d57-ff3732e0adce" />
+<img width="2940" height="1708" alt="image" src="https://github.com/user-attachments/assets/54cea0c7-17e5-4564-a530-715a7d916464" />
+<img width="2940" height="1708" alt="image" src="https://github.com/user-attachments/assets/721a2c7a-eb5c-46f2-9819-490df3d562e7" />
